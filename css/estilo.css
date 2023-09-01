@@ -1,0 +1,25 @@
+/* HEADER */
+.logo {
+    width: 80px;
+}
+
+header {
+    background-color: rgb(247, 247, 247);
+    
+}
+
+/* NavBar */
+.carousel {
+    width: auto;
+}
+
+
+/* Cards */
+.btnCarrito {
+    background-color:gray;
+}
+
+.btnCarrito:hover {
+    background-color: black;
+    color: gray;
+}
