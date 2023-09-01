@@ -1,12 +1,29 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap');
+
+/* Body */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
 /* HEADER */
 .logo {
     width: 80px;
 }
 
 header {
-    background-color: rgb(247, 247, 247);
+    background-color: gray;
+    margin-bottom: 2rem;
     
 }
+.listaMenu{
+    font-size: 1.5rem;
+}
+.listaMenu:hover {
+    color: azure;
+   
+}
+
 
 /* NavBar */
 .carousel {
@@ -15,6 +32,12 @@ header {
 
 
 /* Cards */
+.card {
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 5rem;
+}
 .btnCarrito {
     background-color:gray;
 }
