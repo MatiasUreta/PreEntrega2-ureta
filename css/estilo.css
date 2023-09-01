@@ -36,8 +36,9 @@ header {
     font-size: 1rem;
     text-transform: uppercase;
     text-align: center;
-    margin-left: 5rem;
+    
 }
+
 .btnCarrito {
     background-color:gray;
 }
@@ -45,4 +46,19 @@ header {
 .btnCarrito:hover {
     background-color: black;
     color: gray;
+}
+
+.btn {
+    background-color: black;
+    color: gray;
+}
+
+.btn:hover {
+    background-color: gray;
+    color: black;
+}
+
+/* Footer */
+footer {
+    font-size: 1rem;
 }
