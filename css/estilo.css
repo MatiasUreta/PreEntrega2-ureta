@@ -69,12 +69,14 @@ header {
 /* Footer */
 footer {
     font-size: 1rem;
+   
 }
 
 .logoRedes {
     width: 80px;
     cursor: pointer;
 }
+
 
 .logoWsp {
     width: 120px;
