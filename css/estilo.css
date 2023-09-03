@@ -79,13 +79,26 @@ footer {
 
 
 .logoWsp {
-    width: 120px;
-    display: flex;
-    position: fixed;
-    margin-right:10xp;
+    color: black;
+}
 
+.logoWsp:hover {
+    color: gray;
 }
 
 .bi:hover {
     color: gray;
+}
+
+/* Formulario */
+.formulario {
+    background-color: white;
+}
+
+.fondoFormulario {
+    background-image: url(../img/banner-gris.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
