@@ -1,0 +1,21 @@
+//Cards
+.card {
+    font-size: $textSm;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 1rem;
+    &:hover{
+        background-color: $colorSecundario;
+        color: $colorPrincipal;
+    }
+    .btn{
+        background-color: $colorPrincipal;
+        &:hover{
+            background-color: $colorSecundario;
+            color: $colorPrincipal;
+        }
+    }
+}
+
+
+
