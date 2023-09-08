@@ -1,0 +1,19 @@
+//Mixins
+/*Textos*/
+@mixin text ($size,$line,$color,$padding,){
+    font-family: 'Roboto', sans-serif;
+    font-size: $size;
+    line-height: $line;
+    color: $color;
+    padding: $padding;
+}
+
+
+/*Flexbox*/
+@mixin flexbox ($direccion,$alaing,$justify,$wrap){
+    display: flex;
+    flex-direction: $direccion;
+    align-items: $alaing;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+}

@@ -1,8 +1,16 @@
 @import url("https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap");
+/*Textos*/
+/*Flexbox*/
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   text-align: center;
+}
+body h1, body h2 {
+  font-weight: 600;
+}
+body p {
+  font-weight: 400;
 }
 
 header {
@@ -30,13 +38,6 @@ header .listaMenu:hover {
   margin: 1rem;
 }
 .card:hover {
-  background-color: rgb(10, 10, 10);
-  color: grey;
-}
-.card .btn {
-  background-color: grey;
-}
-.card .btn:hover {
   background-color: rgb(10, 10, 10);
   color: grey;
 }
@@ -69,9 +70,10 @@ header .listaMenu:hover {
 }
 
 .formulario {
-  background-color: rgb(237, 233, 233);
+  background-color: rgb(255, 253, 253);
 }
-.formulario .fondoFormulario {
+
+.fondoFormulario {
   background-image: url(../img/banner-gris.jpg);
   background-position: center;
   background-size: cover;

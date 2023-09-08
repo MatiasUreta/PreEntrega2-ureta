@@ -8,13 +8,7 @@
         background-color: $colorSecundario;
         color: $colorPrincipal;
     }
-    .btn{
-        background-color: $colorPrincipal;
-        &:hover{
-            background-color: $colorSecundario;
-            color: $colorPrincipal;
-        }
-    }
+    
 }
 
  //Iconos
@@ -52,12 +46,13 @@
 //Formulario
 .formulario {
     background-color: $colorTerciario;
-    .fondoFormulario{
-        background-image: url(../img/banner-gris.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+    
+}
+.fondoFormulario{
+    background-image: url(../img/banner-gris.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
