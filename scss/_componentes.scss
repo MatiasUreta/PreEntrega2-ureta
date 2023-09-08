@@ -17,5 +17,48 @@
     }
 }
 
+ //Iconos
+ .iconos {
+    color: $colorSecundario;
+    &:hover{
+        color: $colorPrincipal;
+    }
+ }
+
+ //Logo wsp
+ .logoWsp{
+    color: $colorSecundario;
+    &:hover {
+        color: $colorPrincipal;
+    }
+}
+
+//Img
+.img {
+    cursor: pointer;
+}
+
+//Botones
+.btn {
+    color: $colorPrincipal;
+    background-color: $colorSecundario;
+    &:hover {
+        color: $colorSecundario;
+        background-color: $colorPrincipal;
+
+    }
+}
+
+//Formulario
+.formulario {
+    background-color: $colorTerciario;
+    .fondoFormulario{
+        background-image: url(../img/banner-gris.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
 
 

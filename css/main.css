@@ -41,4 +41,49 @@ header .listaMenu:hover {
   color: grey;
 }
 
+.iconos {
+  color: rgb(10, 10, 10);
+}
+.iconos:hover {
+  color: grey;
+}
+
+.logoWsp {
+  color: rgb(10, 10, 10);
+}
+.logoWsp:hover {
+  color: grey;
+}
+
+.img {
+  cursor: pointer;
+}
+
+.btn {
+  color: grey;
+  background-color: rgb(10, 10, 10);
+}
+.btn:hover {
+  color: rgb(10, 10, 10);
+  background-color: grey;
+}
+
+.formulario {
+  background-color: rgb(237, 233, 233);
+}
+.formulario .fondoFormulario {
+  background-image: url(../img/banner-gris.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer {
+  font-size: 1rem;
+}
+footer .logoRedes {
+  width: 80px;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=main.css.map */
