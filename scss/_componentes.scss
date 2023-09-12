@@ -21,7 +21,8 @@
 
  //Logo wsp
  .logoWsp{
-    color: $colorSecundario;
+    color: $colorLogo;
+    margin: 20px;
     &:hover {
         color: $colorPrincipal;
     }

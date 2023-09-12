@@ -14,11 +14,12 @@ body {
 
 //Header
 header {
-    background-color: $colorPrincipal;
+    background: linear-gradient(90deg, rgba(24,22,22,1) 6%, rgba(85,81,81,1) 91%);
     margin-bottom: 2rem;
     .logo {
         width: 80px;
     }
+
     .listaMenu {
         font-size: $textMd;
         &:hover{

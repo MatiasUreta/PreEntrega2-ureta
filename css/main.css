@@ -14,7 +14,7 @@ body p {
 }
 
 header {
-  background-color: grey;
+  background: linear-gradient(90deg, rgb(24, 22, 22) 6%, rgb(85, 81, 81) 91%);
   margin-bottom: 2rem;
 }
 header .logo {
@@ -50,7 +50,8 @@ header .listaMenu:hover {
 }
 
 .logoWsp {
-  color: rgb(10, 10, 10);
+  color: rgb(37, 211, 102);
+  margin: 20px;
 }
 .logoWsp:hover {
   color: grey;

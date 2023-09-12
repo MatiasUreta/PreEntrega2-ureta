@@ -2,3 +2,4 @@
 *.psd
 *.ai
 node_modules/
+*.txt
