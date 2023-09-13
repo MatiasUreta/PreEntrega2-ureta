@@ -3,9 +3,6 @@ body {
     font-family: $mainFont;
     font-size: $textMd;
     text-align: center;
-    h1,h2 {
-        font-weight: $textBold;
-    }
     p {
         font-weight: $textRegular;
     }
@@ -19,7 +16,6 @@ header {
     .logo {
         width: 80px;
     }
-
     .listaMenu {
         font-size: $textMd;
         background-image: linear-gradient(currentColor, currentColor);

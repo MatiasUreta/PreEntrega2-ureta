@@ -1,5 +1,5 @@
 //Mixins
-/*Textos*/
+// Textos
 @mixin text ($size,$line,$color,$padding,){
     font-family: 'Roboto', sans-serif;
     font-size: $size;
@@ -9,7 +9,7 @@
 }
 
 
-/*Flexbox*/
+//FlexBox
 @mixin flexbox ($direccion,$alaing,$justify,$wrap){
     display: flex;
     flex-direction: $direccion;

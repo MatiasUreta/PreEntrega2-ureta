@@ -1,13 +1,8 @@
 @import url("https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap");
-/*Textos*/
-/*Flexbox*/
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   text-align: center;
-}
-body h1, body h2 {
-  font-weight: 600;
 }
 body p {
   font-weight: 400;
@@ -67,14 +62,6 @@ header .listaMenu:hover {
   cursor: pointer;
 }
 
-/*.btn {
-    color: $colorPrincipal;
-    background-color: $colorSecundario;
-    &:hover {
-        color: $colorSecundario;
-        background-color: $colorPrincipal;
-    }
-}*/
 .formulario {
   background-color: rgb(255, 253, 253);
 }
@@ -84,6 +71,11 @@ header .listaMenu:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.imgError {
+  width: 100%;
+  height: auto;
 }
 
 footer {
