@@ -22,8 +22,14 @@ header {
 
     .listaMenu {
         font-size: $textMd;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 3px;
+        transition: background-size 0.3s;
         &:hover{
-            color: azure;
+            color: $colorTerciario;
+            background-size: 100% 3px;
         }
     }
     

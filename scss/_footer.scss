@@ -2,9 +2,13 @@
 
 footer{
     font-size: $textSm;
+    
     .logoRedes{
         width: 80px;
         cursor: pointer;
+        &:hover {
+           background-color: $colorPrincipal;
+        }
     }
     
 }

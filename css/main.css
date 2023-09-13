@@ -22,9 +22,15 @@ header .logo {
 }
 header .listaMenu {
   font-size: 1.5rem;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 3px;
+  transition: background-size 0.3s;
 }
 header .listaMenu:hover {
-  color: azure;
+  color: rgb(255, 253, 253);
+  background-size: 100% 3px;
 }
 
 .carousel {
@@ -61,15 +67,14 @@ header .listaMenu:hover {
   cursor: pointer;
 }
 
-.btn {
-  color: grey;
-  background-color: rgb(10, 10, 10);
-}
-.btn:hover {
-  color: rgb(10, 10, 10);
-  background-color: grey;
-}
-
+/*.btn {
+    color: $colorPrincipal;
+    background-color: $colorSecundario;
+    &:hover {
+        color: $colorSecundario;
+        background-color: $colorPrincipal;
+    }
+}*/
 .formulario {
   background-color: rgb(255, 253, 253);
 }
@@ -87,6 +92,22 @@ footer {
 footer .logoRedes {
   width: 80px;
   cursor: pointer;
+}
+footer .logoRedes:hover {
+  background-color: grey;
+}
+
+/* Animaciones*/
+.btn {
+  background-image: linear-gradient(to right, rgb(10, 10, 10), grey);
+  color: rgb(255, 253, 253);
+  background-size: 200% 100%;
+  transition: background-position 0.5s;
+}
+.btn:hover {
+  background-position: 100% 0;
+  color: rgb(255, 253, 253);
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=main.css.map */
