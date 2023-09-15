@@ -1,12 +1,8 @@
-/* Animaciones*/
-.btn {
-    background-image: linear-gradient(to right,$colorSecundario,$colorPrincipal);
-    color: $colorTerciario;
-    background-size: 200% 100%;
-    transition: background-position .5s;
-    &:hover {
-        background-position: 100% 0;
-        color: $colorTerciario;
-        font-weight: $textRegular;
+@keyframes opacidad {
+    from {
+        opacity: 0;
     }
-}
+    to {
+        opacity: 1;
+    }
+}                                   

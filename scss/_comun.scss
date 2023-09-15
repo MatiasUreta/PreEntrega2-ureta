@@ -1,12 +1,12 @@
 //Body
 body {
     font-family: $mainFont;
-    font-size: $textMd;
     text-align: center;
     p {
         font-weight: $textRegular;
     }
-   
+   animation-name: opacidad;
+   animation-duration: 1s;
 }
 
 //Header
@@ -17,7 +17,8 @@ header {
         width: 80px;
     }
     .listaMenu {
-        font-size: $textMd;
+        color: $colorSecundario;
+        font-size: $textMd ;
         background-image: linear-gradient(currentColor, currentColor);
         background-position: 0% 100%;
         background-repeat: no-repeat;
@@ -31,11 +32,19 @@ header {
     
 }
 
-//NavBar
-.carousel {
-    width: auto;
+//Footer
+footer{
+    font-size: $textSm;
+    
+    .logoRedes{
+        width: 80px;
+        cursor: pointer;
+        &:hover {
+           background-color: $colorPrincipal;
+        }
+    }
+    
 }
-
 
 
 

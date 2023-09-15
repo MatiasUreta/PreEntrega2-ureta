@@ -1,8 +1,25 @@
 @import url("https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap");
+.containerSucursales .list-group h2 {
+  color: rgb(10, 10, 10);
+}
+.containerSucursales .list-group .listaSucursales {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: rgb(10, 10, 10);
+  padding: 25px;
+  background-color: rgb(255, 253, 253);
+  cursor: pointer;
+}
+.containerSucursales .list-group .listaSucursales:hover {
+  background-color: grey;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
   text-align: center;
+  animation-name: opacidad;
+  animation-duration: 1s;
 }
 body p {
   font-weight: 400;
@@ -16,6 +33,7 @@ header .logo {
   width: 80px;
 }
 header .listaMenu {
+  color: rgb(10, 10, 10);
   font-size: 1.5rem;
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 0% 100%;
@@ -26,6 +44,17 @@ header .listaMenu {
 header .listaMenu:hover {
   color: rgb(255, 253, 253);
   background-size: 100% 3px;
+}
+
+footer {
+  font-size: 1rem;
+}
+footer .logoRedes {
+  width: 80px;
+  cursor: pointer;
+}
+footer .logoRedes:hover {
+  background-color: grey;
 }
 
 .carousel {
@@ -43,11 +72,39 @@ header .listaMenu:hover {
   color: grey;
 }
 
-.iconos {
+.containerIconos .iconos {
   color: rgb(10, 10, 10);
 }
-.iconos:hover {
+.containerIconos .iconos:hover {
   color: grey;
+}
+.containerIconos .textIconos {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+h1 {
+  margin: 20px;
+}
+
+.imgIndex h2 {
+  margin-top: 10px;
+}
+.imgIndex .imgBox img {
+  cursor: pointer;
+}
+
+.btn, .fondoFormulario .btnForm {
+  padding: 15px 20px;
+  background-image: linear-gradient(to right, rgb(10, 10, 10), grey);
+  color: rgb(255, 253, 253);
+  background-size: 200% 100%;
+  transition: background-position 0.5s;
+}
+.btn:hover, .fondoFormulario .btnForm:hover {
+  background-position: 100% 0;
+  color: rgb(255, 253, 253);
+  font-weight: 400;
 }
 
 .logoWsp {
@@ -62,15 +119,17 @@ header .listaMenu:hover {
   cursor: pointer;
 }
 
-.formulario {
-  background-color: rgb(255, 253, 253);
-}
-
 .fondoFormulario {
   background-image: url(../img/banner-gris.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.fondoFormulario .formulario {
+  background-color: rgb(255, 253, 253);
+}
+.fondoFormulario .btnForm {
+  background-image: linear-gradient(to right, grey, rgb(10, 10, 10));
 }
 
 .imgError {
@@ -78,28 +137,13 @@ header .listaMenu:hover {
   height: auto;
 }
 
-footer {
-  font-size: 1rem;
-}
-footer .logoRedes {
-  width: 80px;
-  cursor: pointer;
-}
-footer .logoRedes:hover {
-  background-color: grey;
-}
-
-/* Animaciones*/
-.btn {
-  background-image: linear-gradient(to right, rgb(10, 10, 10), grey);
-  color: rgb(255, 253, 253);
-  background-size: 200% 100%;
-  transition: background-position 0.5s;
-}
-.btn:hover {
-  background-position: 100% 0;
-  color: rgb(255, 253, 253);
-  font-weight: 400;
+@keyframes opacidad {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

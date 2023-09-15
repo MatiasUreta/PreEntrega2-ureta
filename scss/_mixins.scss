@@ -1,6 +1,6 @@
 //Mixins
 // Textos
-@mixin text ($size,$line,$color,$padding,){
+@mixin texto ($size,$line,$color,$padding,){
     font-family: 'Roboto', sans-serif;
     font-size: $size;
     line-height: $line;
@@ -16,4 +16,22 @@
     align-items: $alaing;
     justify-content: $justify;
     flex-wrap: $wrap;
+}
+
+.containerSucursales {
+    .list-group {
+        h2 {
+            color: $colorSecundario;
+        }
+        .listaSucursales{
+            @include texto($textSm,1.7,$colorSecundario,25px);
+            background-color: $colorTerciario;
+            cursor: pointer;
+            &:hover {
+                background-color: $colorPrincipal;
+            }
+            
+        }
+
+    }
 }

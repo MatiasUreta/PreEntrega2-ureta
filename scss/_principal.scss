@@ -1,0 +1,58 @@
+//Carousel
+.carousel {
+    width: auto;
+}
+
+//Cards
+.card {
+    font-size: $textSm;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 1rem;
+    &:hover{
+        background-color: $colorSecundario;
+        color: $colorPrincipal;
+    }  
+    
+}
+
+
+ //Iconos
+ .containerIconos {
+    .iconos {
+        color: $colorSecundario;
+        &:hover{
+            color: $colorPrincipal;
+        }
+        
+     }
+     .textIconos{
+        font-size: $textMd;
+        font-weight: $textRegular;
+     }
+
+ }
+
+ 
+ h1{
+    margin: 20px;
+    
+ }
+
+ 
+.imgIndex {
+    h2 {
+        margin-top: 10px;
+    }
+    .imgBox {
+        img{
+            cursor: pointer;
+        }
+    }
+ }
+
+
+ 
+    
+ 
+
