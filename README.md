@@ -26,3 +26,14 @@ Algunas características clave de este proyecto incluyen:
 1. **Diseño Responsivo**: El sitio web se ve bien en todos los tamaños de pantalla, gracias a la utilización de técnicas de diseño responsivo y el marco de trabajo Bootstrap.
 2. **Interactividad**: He utilizado JavaScript para hacer que el sitio web sea interactivo. Esto incluye cosas como menú desplegable.
 3. **Optimización SEO**: He seguido las mejores prácticas de SEO para ayudar a mejorar la clasificación del sitio web en los motores de búsqueda.
+
+
+## Links
+### REPOSITORIO GITHUB
+`<link>` : <[https://github.com](https://github.com/MatiasUreta/PreEntrega3-ureta.git)https://github.com/MatiasUreta/PreEntrega3-ureta.git>
+### PAGES
+`<link>` : <[[https://github.com](https://github.com/MatiasUreta/PreEntrega3-ureta.git)https://github.com/MatiasUreta/PreEntrega3-ureta.git](https://matiasureta.github.io/PreEntrega3-ureta/)https://matiasureta.github.io/PreEntrega3-ureta/>
+### REPOSITORIO VERCEL
+`<link>` : <>
+ 
+
