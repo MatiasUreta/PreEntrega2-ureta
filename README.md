@@ -33,7 +33,7 @@ Algunas características clave de este proyecto incluyen:
 <https://github.com/MatiasUreta/PreEntrega3-ureta.git>
 ### PAGES
 <https://matiasureta.github.io/PreEntrega3-ureta/>
-### REPOSITORIO VERCEL
-<>
+### REPOSITORIO NETIFLY
+<https://entregafinal-ureta.netlify.app/>
  
 
