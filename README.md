@@ -30,9 +30,9 @@ Algunas características clave de este proyecto incluyen:
 
 ## Links
 ### REPOSITORIO GITHUB
-`<link>` : <[https://github.com](https://github.com/MatiasUreta/PreEntrega3-ureta.git)https://github.com/MatiasUreta/PreEntrega3-ureta.git>
+`<link>` : <https://github.com/MatiasUreta/PreEntrega3-ureta.git>
 ### PAGES
-`<link>` : <[[https://github.com](https://github.com/MatiasUreta/PreEntrega3-ureta.git)https://github.com/MatiasUreta/PreEntrega3-ureta.git](https://matiasureta.github.io/PreEntrega3-ureta/)https://matiasureta.github.io/PreEntrega3-ureta/>
+`<link>` : <https://matiasureta.github.io/PreEntrega3-ureta/>
 ### REPOSITORIO VERCEL
 `<link>` : <>
  
