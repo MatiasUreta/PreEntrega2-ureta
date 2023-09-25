@@ -2,8 +2,8 @@
 
 ## Acerca del Proyecto
 
-Este repositorio contiene el proyecto final de mi curso de Desarrollo Web. A lo largo del curso, he aprendido y aplicado diversas tecnologías y herramientas de desarrollo web, y este proyecto es una culminación de todas esas habilidades.
 
+Este repositorio contiene el proyecto final de mi curso de Desarrollo Web. A lo largo del curso, he aprendido y aplicado diversas tecnogías y herramientas de desasrrollo web, y este proyecto es la culminación de todas esas habilidades.
 ## Tecnologías Utilizadas
 
 En este proyecto, he utilizado las siguientes tecnologías:
@@ -23,16 +23,15 @@ En este proyecto, he utilizado las siguientes tecnologías:
 
 Algunas características clave de este proyecto incluyen:
 
-1. **Diseño Responsivo**: El sitio web se ve bien en todos los tamaños de pantalla, gracias a la utilización de técnicas de diseño responsivo y el marco de trabajo Bootstrap.
-2. **Interactividad**: He utilizado JavaScript para hacer que el sitio web sea interactivo. Esto incluye cosas como menú desplegable.
-3. **Optimización SEO**: He seguido las mejores prácticas de SEO para ayudar a mejorar la clasificación del sitio web en los motores de búsqueda.
+1. **Diseño Responsive**: El sitio web se ve bien en todos los tamaños de pantalla, gracias a la utilización de técnicas de diseño responsivo y el marco de trabajo Bootstrap.
+2. **Optimización SEO**: He seguido las mejores prácticas de SEO para ayudar a mejorar la clasificación del sitio web en los motores de búsqueda.
 
 
 ## Links
 ### REPOSITORIO GITHUB
 <https://github.com/MatiasUreta/PreEntrega3-ureta.git>
-### PAGES
-<https://matiasureta.github.io/PreEntrega3-ureta/>
+### PAGE EN GITHUB
+<https://matiasureta.github.io/ProyectoFinal-Ureta/>
 ### REPOSITORIO NETIFLY
 <https://entregafinal-ureta.netlify.app/>
  
