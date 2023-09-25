@@ -17,7 +17,7 @@ header {
         width: 80px;
     }
     .listaMenu {
-        color: $colorSecundario;
+        color: $colorTerciario;
         font-size: $textMd ;
         background-image: linear-gradient(currentColor, currentColor);
         background-position: 0% 100%;
@@ -25,7 +25,7 @@ header {
         background-size: 0% 3px;
         transition: background-size 0.3s;
         &:hover{
-            color: $colorTerciario;
+            color: $colorSecundario;
             background-size: 100% 3px;
         }
     }

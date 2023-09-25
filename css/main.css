@@ -33,7 +33,7 @@ header .logo {
   width: 80px;
 }
 header .listaMenu {
-  color: rgb(10, 10, 10);
+  color: rgb(255, 253, 253);
   font-size: 1.5rem;
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 0% 100%;
@@ -42,7 +42,7 @@ header .listaMenu {
   transition: background-size 0.3s;
 }
 header .listaMenu:hover {
-  color: rgb(255, 253, 253);
+  color: rgb(10, 10, 10);
   background-size: 100% 3px;
 }
 
@@ -137,6 +137,7 @@ h1 {
   height: auto;
 }
 
+/*Mapa*/
 @keyframes opacidad {
   from {
     opacity: 0;
